@@ -17,11 +17,11 @@ export default function Navbar() {
           <Button
             variant="outline"
             size="icon"
-            className="md:hidden text-white border-white hover:bg-white hover:text-black"
+            className="md:hidden text-black border-white hover:bg-white hover:text-black"
             aria-controls="navbar-cta"
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only text-black">Open main menu</span>
             ☰
           </Button>
         </div>
