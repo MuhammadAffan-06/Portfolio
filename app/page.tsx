@@ -7,6 +7,7 @@ import StarryBackground from "@/components/ui/starry-background/stars";
 import TechStack from "@/components/ui/techstack/tech-stack";
 import Developments from "@/components/ui/developments/developments";
 import Freelance from "@/components/ui/freelance-profile/freelance";
+import Footer from "@/components/ui/footer/footer";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -30,6 +31,8 @@ export default function Home() {
 
         {/* Scroll-based Section Animations */}
         <motion.div
+          id="introduction"
+          className="pt-24"
           variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
@@ -39,6 +42,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
+          id="stack"
           variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
@@ -48,6 +52,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
+          id="projects"
           variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
@@ -56,12 +61,21 @@ export default function Home() {
           <Developments />
         </motion.div>
         <motion.div
+          id="services"
           variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.2 }}
         >
           <Freelance />
+        </motion.div>
+        <motion.div
+          // variants={fadeInUp}
+          // initial="hidden"
+          // whileInView="visible"
+          // viewport={{ once: false, amount: 0 }}
+        >
+          <Footer />
         </motion.div>
       </div>
     </main>
