@@ -13,4 +13,11 @@ export const projects = [
     image: "/development/tarjumma.png",
     link: "https://tarjumma.vercel.app",
   },
+  {
+    title: "Al Mustafa Trust",
+    description:
+      "This project is being under development right now. It is a project to recieve donations online for the deserving ones.",
+    image: "/development/almustafa.png",
+    link: "https://al-mustafa-trust-xyz.vercel.app/",
+  },
 ];

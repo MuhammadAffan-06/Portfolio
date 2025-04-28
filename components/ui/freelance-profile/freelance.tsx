@@ -10,7 +10,10 @@ export default function Freelance() {
           <h1 className="text-white text-xl" style={{ fontFamily: "Manrope" }}>
             Freelance Profile
           </h1>
-          <Link href="https://www.fiverr.com/s/Ega9k8Y" target="_blank">
+          <Link
+            href="https://www.fiverr.com/muhammad_affan6?public_mode=true"
+            target="_blank"
+          >
             <Button
               className="text-white bg-[#00b22d]"
               style={{ fontFamily: "Manrope" }}
