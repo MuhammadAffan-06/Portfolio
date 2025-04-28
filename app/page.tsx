@@ -6,7 +6,7 @@ import Introduction from "@/components/ui/introduction/introduction";
 import StarryBackground from "@/components/ui/starry-background/stars";
 import TechStack from "@/components/ui/techstack/tech-stack";
 import Developments from "@/components/ui/developments/developments";
-import Freelance from "@/components/ui/freelance-profile/freelance";
+// import Freelance from "@/components/ui/freelance-profile/freelance";
 import Footer from "@/components/ui/footer/footer";
 
 const fadeInUp = {
@@ -60,7 +60,7 @@ export default function Home() {
         >
           <Developments />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           id="services"
           variants={fadeInUp}
           initial="hidden"
@@ -68,7 +68,7 @@ export default function Home() {
           viewport={{ once: false, amount: 0.2 }}
         >
           <Freelance />
-        </motion.div>
+        </motion.div> */}
         <motion.div
           // variants={fadeInUp}
           // initial="hidden"
